@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MetropolisHotelHMS.jnlp">
+  <information>
+    <title>MetropolisHotelHMS</title>
+    <vendor>Moishin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MetropolisHotelHMS.jar" size="1530313" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.39-bin.jar" size="989497" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MetropolisHotelHMS" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="metropolishotelhms.MetropolisHotelHMS"  name="MetropolisHotelHMS" />
+  <update check="always"/>
+</jnlp>

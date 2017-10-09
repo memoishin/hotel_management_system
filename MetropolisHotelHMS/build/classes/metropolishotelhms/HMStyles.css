@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2016, 8:34:02 PM
+    Author     : Mohammed Moishin
+*/
+
+.root{
+    -fx-background-color: #000000;
+}
+
+.label{
+    -fx-font-family: Arial;
+    -fx-font-size: 15;
+    -fx-text-fill: #ffffff;
+
+}
+.button{
+
+    
+}
+
+/*#pane{
+    -fx-background-image: url("background4.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#pane2{
+    -fx-background-image: url("background2.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}*/
+
+#loginGrid{
+    -fx-background-image: url("background4.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+/*#loginbutton{
+    -fx-background-color: #66ff66;
+    -fx-border-style:solid;
+    -fx-animated:true;
+    -fx-arc-width: 50;
+}
+
+#logintxt{
+    -fx-background-color:#9999ff;
+    -fx-border-color: #ffffff;
+    -fx-padding: 10;
+}
+*/
+#loginlabel{
+    -fx-text-fill: #000000;
+    -fx-text-alignment: justify;
+    -fx-font-family: Arial;
+    -fx-font-size: 15;
+}
+/*
+#toggle1{
+    -fx-text-fill: #3333ff;
+    -fx-text-alignment: justify;
+    -fx-font-family: Arial;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-background-color: #ffffff;
+}*/
+
+#totalCafe{
+    -fx-text-fill: #990000;
+    -fx-font-size: 30;
+}
